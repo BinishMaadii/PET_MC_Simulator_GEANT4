@@ -1,0 +1,40 @@
+# Build directories
+build/
+cmake_build/
+.cmake/
+
+# Binary and object files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+*.root
+results/
+*.pdf
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+.Python
+
+# Mac specific
+.DS_Store
+.AppleDouble
+.LSOverride
